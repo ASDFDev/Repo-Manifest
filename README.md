@@ -23,3 +23,5 @@ $ cd PAS
 $ repo init -u git@github.com:Proximity-Attendance-System/Repo-Manifest.git
 $ repo sync 
 ```
+
+**Note that you will need a macOS device to be able to build the iOS clients.**
