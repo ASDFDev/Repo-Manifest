@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+  <remote  name="PAS"
            fetch="http://github.com/Proximity-Attendance-System" />
+
+  <remote  name="quiet"
+	   fetch="https://github.com/quiet" />
 
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="backend" name="PAS-Backend" remote="github" revision="master" />
+  <project path="backend" name="PAS-Backend" remote="PAS" revision="master" />
 
-  <project path="android/nearby" name="PAS-Nearby-Android" remote="github" revision="master" />
-  <project path="android/quiet" name="PAS-Quiet-Android" remote="github" revision="master" />
+  <project path="android/nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
+  <project path="android/quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
 
-  <project path="ios/quiet" name="PAS-Quiet-iOS" remote="github" revision="master" />
-  <project path="ios/nearby" name="PAS-Nearby-iOS" remote="github" revision="master" />
+  <project path="ios/quiet" name="PAS-Quiet-iOS" remote="PAS" revision="master" />
+  <project path="ios/nearby" name="PAS-Nearby-iOS" remote="PAS" revision="master" />
+
+  <project path="quiet/android" name="org.quietmodem.Quiet" remote="quiet" revision="msequence_ordering" />
+  <project path="quiet/ios" name="QuietModemKit" remote="quiet" revision="master" />
 
 </manifest>
 
