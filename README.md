@@ -15,7 +15,7 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 $ chmod a+x ~/bin/repo
 ```
 
-After that, create a working directory simply initiazlize your local repository.
+After that, create a working directory and simply initiazlize your local repository.
 
 ```bash
 $ mkdir PAS
