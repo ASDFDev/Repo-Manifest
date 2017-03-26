@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="PAS"
-           fetch="http://github.com/Proximity-Attendance-System" />
+           fetch="http://github.com/ASDFDev" />
 
   <remote  name="quiet"
 	   fetch="https://github.com/quiet" />
