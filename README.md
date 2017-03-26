@@ -20,7 +20,7 @@ After that, create a working directory and simply initiazlize your local reposit
 ```bash
 $ mkdir PAS
 $ cd PAS
-$ repo init -u git@github.com:Proximity-Attendance-System/Repo-Manifest.git
+$ repo init -u https://github.com/ASDFDev/Repo-Manifest.git
 $ repo sync 
 ```
 
