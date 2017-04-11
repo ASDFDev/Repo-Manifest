@@ -19,7 +19,7 @@
   <project path="ios/quiet" name="PAS-Quiet-iOS" remote="PAS" revision="master" />
   <project path="ios/nearby" name="PAS-Nearby-iOS" remote="PAS" revision="master" />
 
-  <project path="quiet/android" name="org.quietmodem.Quiet" remote="quiet" revision="msequence_ordering" />
+  <project path="quiet/android" name="org.quietmodem.Quiet" remote="PAS" revision="msequence_ordering" />
   <project path="quiet/ios" name="QuietModemKit" remote="quiet" revision="master" />
 
 </manifest>
