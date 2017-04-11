@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="PAS"
-           fetch="http://github.com/ASDFDev" />
+           fetch="git@github.com:ASDFDev/" />
 
   <remote  name="quiet"
 	   fetch="https://github.com/quiet" />
