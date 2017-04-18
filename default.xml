@@ -11,7 +11,8 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="backend" name="PAS-Backend" remote="PAS" revision="master" />
+  <project path="backend/php" name="PAS-Backend" remote="PAS" revision="master" />
+  <project path="backend/asp" name="PAS-Backend-ASPNET" remote="PAS" revision="master" />
 
   <project path="android/nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
   <project path="android/quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
