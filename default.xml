@@ -14,8 +14,9 @@
   <project path="backend/php" name="PAS-Backend" remote="PAS" revision="master" />
   <project path="backend/asp" name="PAS-Backend-ASPNET" remote="PAS" revision="master" />
 
-  <project path="android/nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
-  <project path="android/quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
+  <project path="android/setsuna_nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
+  <project path="android/setsuna_quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
+  <project path="android/taiwa_quiet" name="Taiwa-Quiet-Android" remote="PAS" revision="master"/>
 
   <project path="ios/quiet" name="PAS-Quiet-iOS" remote="PAS" revision="master" />
   <project path="ios/nearby" name="PAS-Nearby-iOS" remote="PAS" revision="master" />
