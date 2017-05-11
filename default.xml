@@ -13,16 +13,18 @@
 
   <project path="backend/php" name="PAS-Backend" remote="PAS" revision="master" />
   <project path="backend/asp" name="PAS-Backend-ASPNET" remote="PAS" revision="master" />
+  <project path="backend/TaiwaAdmin" name="Taiwa-AdminPanel" remote"PAS" revision="master" />
 
-  <project path="android/setsuna_nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
-  <project path="android/setsuna_quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
-  <project path="android/taiwa_quiet" name="Taiwa-Quiet-Android" remote="PAS" revision="master"/>
+  <project path="android/setsuna/nearby" name="PAS-Nearby-Android" remote="PAS" revision="master" />
+  <project path="android/setsuna/quiet" name="PAS-Quiet-Android" remote="PAS" revision="master" />
+  <project path="android/taiwa/quiet" name="TaiwaOnThings" remote="PAS" revision="master"/>
+  <project path="android/taiwa/quiet_companion" name="TaiwaOnThings-Android-Companion" remote="PAS" revision="master" />
 
   <project path="ios/quiet" name="PAS-Quiet-iOS" remote="PAS" revision="master" />
   <project path="ios/nearby" name="PAS-Nearby-iOS" remote="PAS" revision="master" />
 
-  <project path="quiet/android" name="org.quietmodem.Quiet" remote="PAS" revision="msequence_ordering" />
-  <project path="quiet/ios" name="QuietModemKit" remote="quiet" revision="master" />
+  <project path="lib/quiet/android" name="org.quietmodem.Quiet" remote="PAS" revision="msequence_ordering" />
+  <project path="lib/quiet/ios" name="QuietModemKit" remote="quiet" revision="master" />
 
 </manifest>
 
